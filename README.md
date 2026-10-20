@@ -75,3 +75,25 @@ robot-arm-kinematics-control/
 - Comparative evaluation of different control strategies
 - Extension to higher-degree-of-freedom manipulators
 - Integration with physics-based robotic simulation environments
+
+## Installation & Usage
+
+Clone the repository:
+
+    git clone https://github.com/sophiawax23-dev/robot-arm-kinematics-control.git
+
+Navigate to the project directory:
+
+    cd robot-arm-kinematics-control
+
+Install dependencies:
+
+    python -m pip install -r requirements.txt
+
+Run the simulation:
+
+    python robot_arm.py
+
+The simulation performs kinematic calculations,
+generates joint trajectories, evaluates PID controller
+performance, and saves visualization files.
